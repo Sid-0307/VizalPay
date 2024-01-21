@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:background="#71f"
+        android:padding="10dp"
+        android:text="VizalPay"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        />
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="199dp"
+        android:layout_height="56dp"
+        android:text="Welcome,"
+        android:layout_marginStart="15dp"
+        android:textSize="40dp"
+        android:layout_marginTop="20dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="106dp"
+        />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="389dp"
+        android:layout_height="65dp"
+        android:text="Username"
+        android:textSize="50dp"
+        android:textColor="#71f"
+        android:layout_marginBottom="40dp"
+        android:layout_marginStart="15dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <TextView
+        android:id="@+id/balance"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:gravity="center"
+        android:paddingTop="16dp"
+
+        android:paddingBottom="0dp"
+        android:text="0.00"
+        android:textColor="#71f"
+        android:textSize="80dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="258dp" />
+
+    <TextView
+        android:id="@+id/balanceText"
+        android:layout_width="381dp"
+        android:layout_height="42dp"
+        android:gravity="center"
+        android:text="Account Balance"
+        android:textSize="30dp"
+        android:layout_marginStart="15dp"
+        tools:layout_editor_absoluteX="17dp"
+        android:layout_marginBottom="40dp"
+        tools:layout_editor_absoluteY="370dp" />
+
+    <Button
+        android:id="@+id/addCreditsButton"
+        android:layout_width="345dp"
+        android:layout_height="59dp"
+        android:text="Add Credits"
+        android:layout_marginStart="35dp"
+        android:layout_marginBottom="20dp"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="473dp" />
+
+    <Button
+        android:id="@+id/makeTransactionButton"
+        android:layout_width="345dp"
+        android:layout_height="59dp"
+        android:text="Make Transaction"
+        android:layout_marginStart="35dp"
+        android:layout_marginBottom="20dp"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="560dp" />
+
+    <Button
+        android:id="@+id/viewTransactionButton"
+        android:layout_width="345dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="35dp"
+        android:text="View Transaction History"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="647dp" />
+
+
+</LinearLayout>

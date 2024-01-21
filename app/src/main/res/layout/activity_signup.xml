@@ -1,0 +1,78 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:background="#71f"
+        android:padding="10dp"
+        android:text="VizalPay"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:layout_marginBottom="50dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="16dp"
+        android:text="Set Up UPI"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp"
+        />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Account Holder Name"
+        android:inputType="text"
+        android:padding="16dp"
+        android:layout_margin="10dp"
+        />
+
+    <EditText
+        android:id="@+id/pin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="4-Digit PIN"
+        android:inputType="numberPassword"
+        android:padding="16dp"
+        android:layout_margin="10dp"
+        />
+
+    <EditText
+        android:id="@+id/confirmPin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm 4-Digit PIN"
+        android:inputType="numberPassword"
+        android:padding="16dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+        />
+
+    <Button
+        android:id="@+id/setUpButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Up"
+        android:background="?attr/colorPrimary"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:layout_margin="10dp"
+
+    />
+</LinearLayout>

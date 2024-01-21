@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:background="#71f"
+        android:padding="10dp"
+        android:text="VizalPay"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        />
+
+    <EditText
+        android:id="@+id/phoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:hint="Phone number"
+        android:inputType="phone"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:padding="16dp"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:padding="16dp"
+        />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="384dp"
+        android:layout_height="66dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:padding="16dp"
+        android:text="Login"
+
+        android:textSize="20dp" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/error"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="TextView" />-->
+
+</LinearLayout>
